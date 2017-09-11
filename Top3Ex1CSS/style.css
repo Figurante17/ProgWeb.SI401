@@ -18,7 +18,7 @@ header{
 	border-radius: 10px;
 }
 
-nav{
+section .objetivo{
 	float: left;
 	width: 25%;
 	height: 250px; 
@@ -27,7 +27,7 @@ nav{
 	border-radius: 10px;
 }
 
-section{
+section .bibliografia{
 	float: right;	
 	width: 75%; 
 	height: 250px; 
