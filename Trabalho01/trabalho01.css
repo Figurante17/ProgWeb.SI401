@@ -4,9 +4,9 @@ html, body{
 }
 
 header{
-	position: absolute;
+	position: relative;
 	width: 100%;
-	background: no-repeat center;
+	background: url('img/home-bg.jpg') no-repeat center;
 	height: 500px;
 }
 
@@ -34,7 +34,7 @@ a{
 	text-decoration: none;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-weight: bold;
-	font-size: 17px;
+	font-size: 1em	;
 }
 
 a:visited{
@@ -44,19 +44,27 @@ a:visited{
 
 header .apresentacao{
 	padding-top: 150px;
+	padding-bottom: 250px;
 	text-align: center;
 	color: #FFF;
 	font-family: Tahoma, Geneva, sans-serif;
 	opacity: 0.8;
 }
 
-h1{
+header .apresentacao h1{
 	font-size: 50px;
 }
 
-hr{
-	border:#87D37C solid 5px;
+hr{	
+	border:rgb(150,150,150) solid 5px;
 	width: 500px;
+	max-width: 500px;
+	min-width: 100px;
 	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+section{
+	margin-top: 50px;
 	margin-bottom: 50px;
 }
