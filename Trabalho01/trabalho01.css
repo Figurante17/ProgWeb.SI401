@@ -18,10 +18,14 @@ header .container{
 }
 
 header .menu{
-	margin-top: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding-left: 25px;
+	padding-right: 25px;
 	text-align: center;
+	background: #999;
+	border:#999 solid 10px;
+	border-radius: 10px;
 }
 
 header li{
@@ -81,4 +85,8 @@ section p{
 	font-size: 25px;
 	color: rgb(100,100,100);
 	text-align: center;
+}
+
+.row{
+	margin-left: 120px;
 }
