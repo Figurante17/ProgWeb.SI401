@@ -32,6 +32,7 @@ header li{
 	display: inline;
 	margin-top: 10px;
 	padding: 0 15px;
+	transition: 1s;
 }
 
 a{
@@ -58,6 +59,13 @@ header .apresentacao{
 
 header .apresentacao h1{
 	font-size: 50px;
+	color: #FFF;
+	transition: 0.5s;
+}
+
+header .apresentacao h1:hover{
+	font-size: 100px;
+	color: #4183D7;
 }
 
 hr{	
@@ -76,7 +84,7 @@ section{
 }
 
 section h1{
-	font-size: 50px;
+	font-size: 40px;
 	color: rgb(120,120,120);
 	text-align: center;
 	margin-bottom: 25px;
@@ -93,18 +101,19 @@ section p{
 	width: 100%;
 }
 
-#news{
-	position: relative;
+.col-md-3{
+	text-align: center;
 }
 
 section .imgbio{
+	border: 0px;
+	border: transparent solid 10px;
 	transition: 1s;
 }
 
 section .imgbio:hover{
 	border:#999 solid 10px;
 	border-radius: 100px;
-	transition: 1s;
 }
 
 section .imginsp{
@@ -112,4 +121,8 @@ section .imginsp{
 	margin-bottom: 50px;
 	max-width: 20%;
 	max-height: 20%;
+}
+
+.insp p{
+	font-size: 20px;
 }
