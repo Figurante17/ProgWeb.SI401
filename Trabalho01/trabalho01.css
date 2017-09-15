@@ -86,12 +86,30 @@ section p{
 	font-size: 25px;
 	color: rgb(100,100,100);
 	text-align: center;
+	margin: 25px 25px;
 }
 
 .row{
-	margin-left: 120px;
+	width: 100%;
+}
+
+#news{
+	position: relative;
+}
+
+section .imgbio{
+	transition: 1s;
+}
+
+section .imgbio:hover{
+	border:#999 solid 10px;
+	border-radius: 100px;
+	transition: 1s;
 }
 
 section .imginsp{
+	margin-top: 25px;
 	margin-bottom: 50px;
+	max-width: 20%;
+	max-height: 20%;
 }
