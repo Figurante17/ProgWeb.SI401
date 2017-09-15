@@ -38,11 +38,12 @@ a{
 	text-decoration: none;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-weight: bold;
-	font-size: 1em	;
+	font-size: 1em;
+	color: rgb(80,80,80);
 }
 
 a:visited{
-	color: #000;
+	color: rgb(80,80,80);
 }
 
 
@@ -89,4 +90,8 @@ section p{
 
 .row{
 	margin-left: 120px;
+}
+
+section .imginsp{
+	margin-bottom: 50px;
 }
