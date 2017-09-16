@@ -106,14 +106,13 @@ section p{
 }
 
 section .imgbio{
-	border: 0px;
 	border: transparent solid 10px;
 	transition: 1s;
 }
 
 section .imgbio:hover{
 	border:#999 solid 10px;
-	border-radius: 100px;
+	border-radius: 100%;
 }
 
 section .imginsp{
@@ -125,4 +124,31 @@ section .imginsp{
 
 .insp p{
 	font-size: 20px;
+}
+
+i .fa-facebook,
+i .fa-linkedin,
+i .fa-github,
+i .fa-google-plus{
+	border: transparent solid 10px;
+	transition: 0.2s;
+}
+
+i .fa-facebook:hover,
+i .fa-linkedin:hover{
+	background: #3B5998;
+	border-color: #3B5998;
+	border-radius: 100%;
+}
+
+i .fa-github:hover{
+	background: #6E5494;
+	border-color: #6E5494;
+	border-radius: 100%;
+}
+
+i .fa-google-plus:hover{
+	background: red;
+	border-color: red;
+	border-radius: 100%;
 }
