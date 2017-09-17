@@ -130,8 +130,8 @@ section .imginsp{
 .azul .fa-linkedin,
 .roxo .fa-github,
 .vermelho .fa-google-plus{
-	border: transparent solid 20px;
-	transition: 0.2s;
+	border: transparent solid 25px;
+	transition: 0.4s;
 }
 
 .azul .fa-facebook:hover,
@@ -163,4 +163,9 @@ section ul{
 
 section li{
 	margin: 30px 0;
+}
+
+.video{
+	width: 50%;
+	margin: 25px auto;
 }
