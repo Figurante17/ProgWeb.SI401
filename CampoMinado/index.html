@@ -1,0 +1,98 @@
+﻿<html>
+	<head>	
+		 <meta charset="UTF-8">
+		<script src="indexScript.js"></script>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<script language=JavaScript>
+<!-- begin
+
+//-->
+</SCRIPT>
+	</head>
+	<body onload="firstSettings()">
+		<audio id="musica" src="media/EveryThirtyYears.mp3"></audio>
+		<div id="divLeft">
+			<div id="imgPw">
+				<img src="img/profilee.png" alt="usrLogo">
+			</div>
+			<form class="formUsr" action="">
+			  <img src="img/back.png" alt="usrLogo">
+			  <input type="text" placeholder="Nome do jogador" id="nameInput">
+			  <br>
+			  <input type="number" placeholder="Dimensão: MAX 20" id="dimensionInput">			  
+			  <br>
+			  <input type="number" placeholder="Número de bombas" id="numberBombsInput">
+			  <br>
+			  <button type="button" onclick="startGame(), audio(musica)" class="btn btn-danger btn-large" id="btnStart">Jogar</button>
+			</form>
+		</div>
+			
+		<div id="divRight">
+			<img src="img/fim.png" id="imagemFim">
+			<button type="button" onclick="restartGame()" class="btn btn-danger btn-large" id="btnRestart">Recomeçar</button>
+			<div class="divGameContainer" id="divGameContainer">
+			<table id="boteos">
+				<tr>
+					<td><p id="pShowOcculteBombs">Bombas:	<input type="submit" onclick="showOcculteBombs()" id="showOcculteBombs" value=" "/></p></td>
+					<td><p id="pShowAll">Tabuleiro:			<input type="submit" onclick="showAll()" 		  id="showAll"          value=" "/></p></td>
+				</tr>	
+			</table>	
+				<div class="gameBoard" id="idGameBoard">
+					<table style="width:100%">
+					  <tr>
+						<td>Eve</td>
+						<td>Jackson</td> 
+						<td>94</td>
+					  </tr>
+					</table>
+				</div>
+			</div>
+			<div class="divRankingContainer">
+				<div class="divRankingHeader">
+					<div class="dropdown" style="width:100%;">
+						<button class="dropbtn"><img src="img/profile.png"></button>
+						<div class="dropdown-content">
+							Nome do Jogador.
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="dropbtn"><img src="img/tamanho.png"></button>
+						<div class="dropdown-content">
+							Dimensões do campo.
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="dropbtn"><img src="img/bombIcon.png"></button>
+						<div class="dropdown-content">
+							Número de bombas.
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="dropbtn"><img src="img/relogio.png"></button>
+						<div class="dropdown-content">
+							Duração da partida.
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="dropbtn"><img src="img/status.png"></button>
+						<div class="dropdown-content" style="margin-left:-100%;">
+							Número de células abertas.
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="dropbtn"><img src="img/crown.png"></button>
+						<div class="dropdown-content" style="margin-left:-200%;">
+							Resultado final da partida V(vitória) ou D(derrota).
+						</div>
+					</div>
+				</div>
+				<div class="divRanking" id="divRanking">
+				   
+				</div>
+			</div>
+		</div>	  
+	</body>
+
+</html>
